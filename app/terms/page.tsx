@@ -77,7 +77,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-heading font-semibold text-text mb-4">7. Từ chối trách nhiệm</h2>
               <p>
-                EA được cung cấp "nguyên trạng". Chúng tôi KHÔNG chịu trách nhiệm về: lợi nhuận/lỗ 
+                EA được cung cấp &quot;nguyên trạng&quot;. Chúng tôi KHÔNG chịu trách nhiệm về: lợi nhuận/lỗ 
                 khi giao dịch thực, thay đổi điều kiện thị trường, lỗi từ broker/MT5, 
                 sử dụng sai tham số hoặc không tuân thủ hướng dẫn.
               </p>

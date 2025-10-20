@@ -39,8 +39,8 @@ export default function Footer() {
               NongDanLamBOT
             </h3>
             <p className="text-text-muted text-sm leading-relaxed">
-              Chuyên thiết kế và lập trình Expert Advisor cho MetaTrader 5 theo yêu cầu. 
-              Chất lượng, uy tín, chuyên nghiệp.
+              Cộng đồng EA MT5 - Nơi chia sẻ kiến thức, chiến lược và dịch vụ viết EA theo yêu cầu. 
+              Chuyên nghiệp, uy tín, chất lượng.
             </p>
           </div>
 

@@ -8,39 +8,39 @@ import Card from '@/components/Card'
 const reasons = [
   {
     icon: Shield,
-    title: 'Uy tín & Chất lượng đã kiểm chứng',
-    description: 'Hơn 150+ dự án EA hoàn thành với tỷ lệ hài lòng 98%. Code clean, logic rõ ràng, tuân thủ best practices.',
-    highlight: '150+ EA delivered',
+    title: 'Cộng đồng uy tín & Chất lượng',
+    description: '500+ thành viên đang hoạt động, 150+ EA đã phát triển. Chia sẻ kinh nghiệm, chiến lược thực tế từ trader lâu năm.',
+    highlight: '500+ members',
   },
   {
     icon: Zap,
-    title: 'Tốc độ & Hiệu suất vượt trội',
-    description: 'Phản hồi tư vấn trong 24h, bàn giao đúng deadline 99% dự án. Code tối ưu, không lag, low CPU usage.',
-    highlight: '99% on-time',
+    title: 'Dịch vụ viết EA chuyên nghiệp',
+    description: 'Phản hồi tư vấn trong 24h, code clean, tối ưu hiệu suất. Backtest chi tiết, bàn giao đúng deadline.',
+    highlight: '24h response',
   },
   {
     icon: Users,
-    title: 'Minh bạch & Quy trình chuyên nghiệp',
+    title: 'Minh bạch & Quy trình rõ ràng',
     description: 'Trao đổi rõ ràng mỗi bước, báo cáo tiến độ thường xuyên, demo trước khi bàn giao. Không phát sinh chi phí ẩn.',
     highlight: '100% transparent',
   },
   {
     icon: Lock,
     title: 'Bảo mật cấp ngân hàng',
-    description: 'Chiến lược của bạn được bảo mật tuyệt đối. Ký NDA khi cần. Bản quyền gắn tài khoản riêng biệt.',
+    description: 'Chiến lược của bạn được bảo mật tuyệt đối. Ký NDA khi cần. Bản quyền EA gắn tài khoản MT5 riêng biệt.',
     highlight: 'NDA available',
   },
   {
     icon: Clock,
-    title: 'Hỗ trợ tận tâm & Lâu dài',
-    description: 'Bảo hành kỹ thuật 30-60 ngày, hỗ trợ qua Telegram/Email nhanh chóng. Team sẵn sàng giải đáp 24/7.',
+    title: 'Hỗ trợ tận tâm 24/7',
+    description: 'Bảo hành kỹ thuật 30-60 ngày, hỗ trợ qua Telegram/Zalo nhanh chóng. Cộng đồng sẵn sàng giải đáp.',
     highlight: '24/7 support',
   },
   {
     icon: HeartHandshake,
-    title: 'Đối tác dài hạn, không chỉ vendor',
-    description: 'Không bỏ đi sau khi bán EA. Tư vấn optimize, upgrade khi cần. 70% khách hàng quay lại làm thêm dự án.',
-    highlight: '70% return rate',
+    title: 'Học hỏi & Phát triển cùng nhau',
+    description: 'Chia sẻ kiến thức, kinh nghiệm, chiến lược thực tế. Cộng đồng hỗ trợ lẫn nhau trong quá trình trading.',
+    highlight: 'Community driven',
   },
 ]
 
@@ -55,10 +55,10 @@ export default function WhyUsSection() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-text mb-4">
-          Tại sao chọn chúng tôi?
+          Tại sao chọn NongDanLamBOT?
         </h2>
         <p className="text-lg text-text-muted max-w-2xl mx-auto">
-          6 lý do khiến hàng chục khách hàng tin tưởng và quay lại
+          Cộng đồng EA MT5 với dịch vụ viết EA chuyên nghiệp và uy tín
         </p>
       </motion.div>
 

@@ -58,7 +58,7 @@ export default function CTASection() {
           >
             <Sparkles className="text-accent mr-2 animate-pulse" size={18} />
             <span className="text-accent text-sm font-semibold">
-              Ưu đãi đặc biệt khi đặt hàng ngay hôm nay
+              Tham gia cộng đồng NongDanLamBOT ngay hôm nay
             </span>
           </motion.div>
 
@@ -82,8 +82,8 @@ export default function CTASection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg text-text-muted mb-8 max-w-2xl mx-auto leading-relaxed"
           >
-            Đừng để ý tưởng trading tuyệt vời của bạn chỉ nằm trên giấy. 
-            Hãy để chúng tôi biến nó thành EA hoàn chỉnh, backtest rõ ràng, sẵn sàng triển khai.
+            Tham gia cộng đồng để học hỏi, chia sẻ kinh nghiệm và sử dụng dịch vụ viết EA theo yêu cầu. 
+            Backtest chi tiết, sẵn sàng triển khai thực chiến.
           </motion.p>
 
           {/* Benefits list */}
@@ -95,9 +95,9 @@ export default function CTASection() {
             className="flex flex-wrap justify-center gap-6 mb-10"
           >
             {[
-              'Tư vấn miễn phí trong 24h',
+              'Tham gia cộng đồng miễn phí',
+              'Tư vấn EA trong 24h',
               'Báo giá chi tiết & minh bạch',
-              'Demo trước khi thanh toán',
               'Bảo hành 30-60 ngày'
             ].map((benefit, i) => (
               <motion.div

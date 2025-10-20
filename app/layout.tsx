@@ -16,13 +16,13 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'NongDanLamBOT - Thuê viết bot EA Forex MT5 theo yêu cầu',
-  description: 'Dịch vụ thiết kế và lập trình Expert Advisor (EA) cho MetaTrader 5 theo chiến lược của bạn. Backtest chi tiết, tối ưu rủi ro, bản quyền gắn tài khoản MT5.',
-  keywords: ['NongDanLamBOT', 'EA MT5', 'Expert Advisor', 'Forex bot', 'thuê viết EA', 'lập trình EA', 'MetaTrader 5', 'trading bot'],
+  title: 'NongDanLamBOT - Cộng Đồng EA MT5 | Dịch vụ viết EA theo yêu cầu',
+  description: 'Cộng đồng EA MT5 NongDanLamBOT - Chia sẻ kiến thức, chiến lược trading và dịch vụ viết Expert Advisor (EA) MT5 theo yêu cầu. Backtest chi tiết, tối ưu rủi ro, bản quyền gắn tài khoản.',
+  keywords: ['NongDanLamBOT', 'cộng đồng EA MT5', 'EA MT5', 'Expert Advisor', 'Forex bot', 'viết EA theo yêu cầu', 'lập trình EA', 'MetaTrader 5', 'trading bot', 'cộng đồng forex'],
   authors: [{ name: 'NongDanLamBOT' }],
   openGraph: {
-    title: 'NongDanLamBOT - Thuê viết bot EA Forex MT5 theo yêu cầu',
-    description: 'Dịch vụ thiết kế và lập trình Expert Advisor (EA) cho MetaTrader 5 theo chiến lược của bạn.',
+    title: 'NongDanLamBOT - Cộng Đồng EA MT5 | Dịch vụ viết EA theo yêu cầu',
+    description: 'Cộng đồng EA MT5 NongDanLamBOT - Chia sẻ kiến thức, chiến lược trading và dịch vụ viết EA MT5 theo yêu cầu.',
     type: 'website',
     locale: 'vi_VN',
   },

@@ -19,10 +19,10 @@ export default function ContactSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-text mb-4">
-            Bắt đầu dự án của bạn
+            Tham gia cộng đồng NongDanLamBOT
           </h2>
           <p className="text-lg text-text-muted max-w-2xl mx-auto mb-8">
-            Liên hệ với chúng tôi để nhận báo giá và tư vấn miễn phí trong 24h
+            Liên hệ để tham gia cộng đồng và tư vấn dịch vụ viết EA theo yêu cầu
           </p>
         </motion.div>
 
@@ -34,10 +34,10 @@ export default function ContactSection() {
           className="bg-surface border border-secondary-200 rounded-2xl p-12 text-center">
           <MessageCircle size={64} className="mx-auto mb-6 text-accent" />
           <h3 className="text-2xl font-heading font-bold text-text mb-4">
-            Chọn cách liên hệ phù hợp với bạn
+            Kết nối với cộng đồng
           </h3>
           <p className="text-text-muted mb-8">
-            Chúng tôi sẵn sàng tư vấn và báo giá chi tiết cho dự án EA của bạn
+            Tham gia ngay để chia sẻ kinh nghiệm, học hỏi và tư vấn dịch vụ viết EA
           </p>
           
           <Button

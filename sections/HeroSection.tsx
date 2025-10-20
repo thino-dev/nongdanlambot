@@ -66,18 +66,18 @@ export default function HeroSection() {
             >
               <Sparkles className="text-cyan-400 mr-2 animate-pulse" size={18} />
               <span className="text-cyan-400 text-sm font-semibold tracking-wide">
-                Premium EA Development • 5+ Years Experience
+                Cộng Đồng EA MT5 • 5+ Năm Kinh Nghiệm
               </span>
             </motion.div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-text mb-6 leading-tight">
-              Thuê viết bot EA MT5 theo yêu cầu –{' '}
-              <span className="text-cyan-400">Nhanh, chuẩn, hiệu quả</span>
+              Nông Dân Làm BOT {' '}
+              <span className="text-cyan-400">Chia sẻ & Phát triển cùng nhau</span>
             </h1>
             
             <p className="text-lg text-text-muted mb-8 leading-relaxed">
-              Nhận thiết kế Expert Advisor theo chiến lược của bạn: backtest rõ ràng, 
-              tối ưu rủi ro, triển khai thực chiến. Bản quyền gắn tài khoản MT5 của bạn.
+              Cộng đồng chia sẻ kiến thức, chiến lược trading và dịch vụ viết EA MT5 theo yêu cầu. 
+              Backtest chi tiết, tối ưu rủi ro, bản quyền gắn tài khoản MT5 của bạn.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -86,7 +86,7 @@ export default function HeroSection() {
                 size="lg"
                 onClick={openPopup}
               >
-                Nhận báo giá trong 24h
+                Tham gia cộng đồng ngay
                 <ArrowRight className="ml-2" size={20} />
               </Button>
               
@@ -94,10 +94,10 @@ export default function HeroSection() {
                 variant="outline"
                 size="lg"
                 onClick={() => {
-                  document.querySelector('#portfolio')?.scrollIntoView({ behavior: 'smooth' })
+                  document.querySelector('#services')?.scrollIntoView({ behavior: 'smooth' })
                 }}
               >
-                Xem demo EA
+                Dịch vụ viết EA
               </Button>
             </div>
             
@@ -113,9 +113,9 @@ export default function HeroSection() {
                 <div className="relative">
                   <div className="flex items-center gap-2 mb-2">
                     <Shield className="text-cyan-400" size={20} />
-                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">150+</div>
+                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">500+</div>
                   </div>
-                  <div className="text-sm text-text-muted">EA đã triển khai</div>
+                  <div className="text-sm text-text-muted">Thành viên cộng đồng</div>
                 </div>
               </motion.div>
               
@@ -129,9 +129,9 @@ export default function HeroSection() {
                 <div className="relative">
                   <div className="flex items-center gap-2 mb-2">
                     <TrendingUp className="text-cyan-400" size={20} />
-                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">98%</div>
+                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">150+</div>
                   </div>
-                  <div className="text-sm text-text-muted">Tỷ lệ hài lòng</div>
+                  <div className="text-sm text-text-muted">EA đã phát triển</div>
                 </div>
               </motion.div>
               
@@ -145,9 +145,9 @@ export default function HeroSection() {
                 <div className="relative">
                   <div className="flex items-center gap-2 mb-2">
                     <Zap className="text-cyan-400" size={20} />
-                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">24h</div>
+                    <div className="text-3xl font-heading font-bold bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">5+</div>
                   </div>
-                  <div className="text-sm text-text-muted">Phản hồi tư vấn</div>
+                  <div className="text-sm text-text-muted">Năm kinh nghiệm</div>
                 </div>
               </motion.div>
             </div>

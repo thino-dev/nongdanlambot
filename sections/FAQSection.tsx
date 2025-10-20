@@ -7,6 +7,22 @@ import Section from '@/components/Section'
 
 const faqs = [
   {
+    question: 'Cộng đồng NongDanLamBOT là gì?',
+    answer: 'NongDanLamBOT là cộng đồng EA MT5 với hơn 500+ thành viên đang hoạt động. Nơi trader chia sẻ kinh nghiệm, chiến lược, học hỏi lẫn nhau về trading tự động và Expert Advisor. Cộng đồng cũng cung cấp dịch vụ viết EA theo yêu cầu chuyên nghiệp.',
+  },
+  {
+    question: 'Làm sao để tham gia cộng đồng?',
+    answer: 'Hoàn toàn miễn phí! Chỉ cần liên hệ qua Zalo (0942982993) hoặc Telegram (@z2idon) để được thêm vào nhóm cộng đồng. Bạn sẽ được tiếp cận các tài liệu, chiến lược EA, và trao đổi trực tiếp với các trader có kinh nghiệm.',
+  },
+  {
+    question: 'Cộng đồng có những hoạt động gì?',
+    answer: 'Chia sẻ 100+ chiến lược EA, trao đổi kinh nghiệm trading, tư vấn tối ưu EA, review backtest, hỗ trợ kỹ thuật MT5, và cập nhật xu hướng thị trường. Thành viên cũng được ưu tiên khi sử dụng dịch vụ viết EA của cộng đồng.',
+  },
+  {
+    question: 'Có mất phí gì khi tham gia cộng đồng không?',
+    answer: 'Hoàn toàn miễn phí! Bạn chỉ mất phí khi sử dụng dịch vụ viết EA theo yêu cầu. Tất cả tài liệu, chiến lược chia sẻ trong cộng đồng đều free. Chúng tôi tin vào giá trị của việc chia sẻ và học hỏi cùng nhau.',
+  },
+  {
     question: 'Thời gian hoàn thành EA trung bình là bao lâu?',
     answer: 'Tùy độ phức tạp: EA đơn giản 5-7 ngày, EA nâng cao 7-10 ngày, dự án phức tạp 10-14 ngày. Chúng tôi sẽ báo rõ timeline ngay sau khi phân tích yêu cầu.',
   },
@@ -49,14 +65,14 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.05 }}
-      className="bg-surface border border-secondary-200 rounded-xl overflow-hidden"
+      className="bg-surface border border-secondary-200 rounded-xl overflow-hidden h-full flex flex-col"
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-secondary/30 transition-colors"
+        className="w-full px-5 py-4 flex items-start justify-between text-left hover:bg-secondary/30 transition-colors"
         aria-expanded={isOpen}
       >
-        <span className="text-text font-semibold pr-8">{question}</span>
+        <span className="text-text font-semibold pr-4 text-sm leading-snug">{question}</span>
         <ChevronDown
           className={`text-accent flex-shrink-0 transition-transform duration-300 ${
             isOpen ? 'rotate-180' : ''
@@ -73,7 +89,7 @@ function FAQItem({ question, answer, index }: { question: string; answer: string
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: 'easeOut' }}
           >
-            <div className="px-6 pb-4 text-text-muted leading-relaxed">
+            <div className="px-5 pb-4 text-text-muted leading-relaxed text-sm">
               {answer}
             </div>
           </motion.div>
@@ -97,11 +113,11 @@ export default function FAQSection() {
           Câu hỏi thường gặp
         </h2>
         <p className="text-lg text-text-muted max-w-2xl mx-auto">
-          Giải đáp những thắc mắc phổ biến về dịch vụ của chúng tôi
+          Giải đáp về cộng đồng và dịch vụ viết EA của NongDanLamBOT
         </p>
       </motion.div>
 
-      <div className="max-w-3xl mx-auto space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {faqs.map((faq, index) => (
           <FAQItem key={index} question={faq.question} answer={faq.answer} index={index} />
         ))}

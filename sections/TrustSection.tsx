@@ -13,21 +13,21 @@ const trustMetrics = [
   },
   {
     icon: Users,
-    value: '200+',
-    label: 'Khách hàng tin dùng',
-    description: 'Từ trader cá nhân đến quỹ',
+    value: '500+',
+    label: 'Thành viên cộng đồng',
+    description: 'Trader đang hoạt động',
   },
   {
     icon: TrendingUp,
     value: '150+',
-    label: 'Dự án hoàn thành',
-    description: 'EA đang chạy thực chiến',
+    label: 'EA đã phát triển',
+    description: 'Đang chạy thực chiến',
   },
   {
     icon: CheckCircle2,
-    value: '98%',
-    label: 'Tỷ lệ hài lòng',
-    description: 'Khách quay lại sử dụng',
+    value: '100+',
+    label: 'Chiến lược chia sẻ',
+    description: 'Trong cộng đồng',
   },
   {
     icon: Shield,
@@ -38,8 +38,8 @@ const trustMetrics = [
   {
     icon: Clock,
     value: '24/7',
-    label: 'Hỗ trợ nhanh chóng',
-    description: 'Telegram & Email',
+    label: 'Hỗ trợ cộng đồng',
+    description: 'Telegram & Zalo',
   },
 ]
 
@@ -54,10 +54,10 @@ export default function TrustSection() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-text mb-4">
-          Được tin tưởng bởi cộng đồng Traders
+          Cộng đồng NongDanLamBOT
         </h2>
         <p className="text-lg text-text-muted max-w-2xl mx-auto">
-          Con số và thành tích nói lên cam kết chất lượng của chúng tôi
+          Nơi trader chia sẻ kinh nghiệm, học hỏi và phát triển cùng nhau
         </p>
       </motion.div>
 

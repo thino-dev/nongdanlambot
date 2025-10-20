@@ -8,13 +8,13 @@ import Card from '@/components/Card'
 const services = [
   {
     icon: Code,
-    title: 'Viết EA theo chiến lược sẵn có',
-    description: 'Chuyển đổi chiến lược trading của bạn thành EA hoàn chỉnh với logic rõ ràng và tối ưu.',
+    title: 'Viết EA theo yêu cầu',
+    description: 'Dịch vụ viết EA MT5 theo chiến lược của bạn. Backtest chi tiết, tối ưu rủi ro, bản quyền gắn tài khoản.',
   },
   {
     icon: Lightbulb,
-    title: 'Chuyển ý tưởng thành EA',
-    description: 'Tư vấn và phát triển EA từ ý tưởng ban đầu, phù hợp với phong cách giao dịch của bạn.',
+    title: 'Tư vấn chiến lược',
+    description: 'Chia sẻ kinh nghiệm, tư vấn phát triển ý tưởng thành EA hoàn chỉnh phù hợp phong cách trading.',
   },
   {
     icon: Settings,
@@ -33,8 +33,8 @@ const services = [
   },
   {
     icon: FileText,
-    title: 'Bản quyền gắn tài khoản',
-    description: 'EA file .ex5 gắn với tài khoản MT5 của bạn. Bảo mật tuyệt đối, không chia sẻ được.',
+    title: 'Cộng đồng chia sẻ',
+    description: 'Tham gia nhóm cộng đồng, chia sẻ kinh nghiệm, học hỏi từ trader khác trong cộng đồng.',
   },
 ]
 
@@ -49,10 +49,10 @@ export default function ServicesSection() {
         className="text-center mb-16"
       >
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-text mb-4">
-          Dịch vụ của chúng tôi
+          Cộng đồng & Dịch vụ
         </h2>
         <p className="text-lg text-text-muted max-w-2xl mx-auto">
-          Giải pháp toàn diện cho mọi nhu cầu phát triển Expert Advisor trên MT5
+          Nơi chia sẻ kiến thức EA MT5 và dịch vụ viết EA theo yêu cầu chuyên nghiệp
         </p>
       </motion.div>
 

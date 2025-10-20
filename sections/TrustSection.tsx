@@ -9,7 +9,7 @@ const trustMetrics = [
     icon: Award,
     value: '5+',
     label: 'Năm kinh nghiệm',
-    description: 'Chuyên sâu lập trình EA MT5',
+    description: 'Chuyên sâu lập trình EA',
   },
   {
     icon: Users,
@@ -41,12 +41,6 @@ const trustMetrics = [
     label: 'Hỗ trợ nhanh chóng',
     description: 'Telegram & Email',
   },
-]
-
-const certifications = [
-  { name: 'MQL5 Certified Programmer', status: 'Verified' },
-  { name: 'Algorithmic Trading Expert', status: 'Specialized' },
-  { name: 'Financial Risk Management', status: 'Certified' },
 ]
 
 export default function TrustSection() {
@@ -97,55 +91,12 @@ export default function TrustSection() {
         ))}
       </div>
 
-      {/* Certifications */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.6 }}
-        className="max-w-4xl mx-auto"
-      >
-        <div className="bg-primary border border-accent/20 rounded-2xl p-8">
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <Shield className="text-accent" size={24} />
-            <h3 className="text-xl font-heading font-semibold text-text">
-              Chứng nhận & Chuyên môn
-            </h3>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {certifications.map((cert, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: 0.7 + index * 0.1 }}
-                className="flex items-center gap-3 bg-surface rounded-xl p-4"
-              >
-                <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <CheckCircle2 className="text-accent" size={20} />
-                </div>
-                <div className="flex-1">
-                  <div className="text-text font-semibold text-sm">
-                    {cert.name}
-                  </div>
-                  <div className="text-accent text-xs">
-                    {cert.status}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </motion.div>
-
       {/* Guarantee Section */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.9 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
         className="mt-12 text-center"
       >
         <div className="inline-flex items-center gap-3 bg-gradient-to-r from-accent/10 via-accent/5 to-accent/10 border border-accent/30 rounded-full px-8 py-4">

@@ -4,8 +4,11 @@ import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react'
 import Button from '@/components/Button'
 import Section from '@/components/Section'
+import { useContactPopup } from '@/contexts/ContactPopupContext'
 
 export default function CTASection() {
+  const { openPopup } = useContactPopup()
+  
   return (
     <Section id="cta" className="relative overflow-hidden">
       {/* Animated background */}
@@ -122,9 +125,7 @@ export default function CTASection() {
             <Button
               variant="primary"
               size="lg"
-              onClick={() => {
-                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })
-              }}
+              onClick={openPopup}
               className="shadow-2xl shadow-accent/30 hover:shadow-accent/50 group"
             >
               <span>Nhận tư vấn & báo giá miễn phí</span>
@@ -132,7 +133,7 @@ export default function CTASection() {
             </Button>
             
             <a
-              href="https://t.me/eamt5studio"
+              href="https://t.me/z2idon"
               target="_blank"
               rel="noopener noreferrer"
               className="group"

@@ -36,7 +36,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-heading font-bold text-accent mb-4">
-              EA MT5 Studio
+              NongDanLamBOT
             </h3>
             <p className="text-text-muted text-sm leading-relaxed">
               Chuyên thiết kế và lập trình Expert Advisor cho MetaTrader 5 theo yêu cầu. 
@@ -93,7 +93,7 @@ export default function Footer() {
             <h4 className="text-text font-semibold mb-4">Liên hệ</h4>
             <div className="space-y-3">
               <a
-                href="https://t.me/eamt5studio"
+                href="https://t.me/z2idon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-text-muted hover:text-accent text-sm transition-colors"
@@ -102,11 +102,11 @@ export default function Footer() {
                 Telegram
               </a>
               <a
-                href="mailto:contact@eamt5studio.com"
+                href="mailto:contact@nongdanlambot.com"
                 className="flex items-center text-text-muted hover:text-accent text-sm transition-colors"
               >
                 <Mail size={16} className="mr-2" />
-                contact@eamt5studio.com
+                contact@nongdanlambot.com
               </a>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-secondary-200">
           <p className="text-center text-text-muted text-sm">
-            © {new Date().getFullYear()} EA MT5 Studio. Mọi quyền được bảo lưu.
+            © {new Date().getFullYear()} NongDanLamBOT. Mọi quyền được bảo lưu.
           </p>
         </div>
       </div>

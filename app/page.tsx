@@ -1,3 +1,6 @@
+'use client'
+
+import { ContactPopupProvider } from '@/contexts/ContactPopupContext'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import HeroSection from '@/sections/HeroSection'
@@ -15,21 +18,23 @@ import ContactSection from '@/sections/ContactSection'
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <TrustSection />
-      <ServicesSection />
-      <ProcessSection />
-      <WhyUsSection />
-      <FeaturesSection />
-      <PricingSection />
-      <PortfolioSection />
-      <TestimonialsSection />
-      <FAQSection />
-      <CTASection />
-      <ContactSection />
-      <Footer />
-    </main>
+    <ContactPopupProvider>
+      <main className="min-h-screen">
+        <Header />
+        <HeroSection />
+        <TrustSection />
+        <ServicesSection />
+        <ProcessSection />
+        <WhyUsSection />
+        <FeaturesSection />
+        <PricingSection />
+        <PortfolioSection />
+        <TestimonialsSection />
+        <FAQSection />
+        <CTASection />
+        <ContactSection />
+        <Footer />
+      </main>
+    </ContactPopupProvider>
   )
 }

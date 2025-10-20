@@ -1,4 +1,4 @@
-# EA MT5 Studio - Landing Page
+# NongDanLamBOT - Landing Page
 
 Website one-page giới thiệu dịch vụ thuê viết bot EA Forex MT5 chuyên nghiệp.
 
@@ -164,10 +164,10 @@ MIT License - Tự do sử dụng cho dự án cá nhân/thương mại.
 
 ## 📞 Contact
 
-- Email: contact@eamt5studio.com
-- Telegram: [@eamt5studio](https://t.me/eamt5studio)
+- Email: contact@nongdanlambot.com
+- Telegram: [@z2idon](https://t.me/z2idon)
 
 ---
 
-Made with ❤️ by EA MT5 Studio
+Made with ❤️ by NongDanLamBOT
 # nongdanlambot

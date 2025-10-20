@@ -1,7 +1,7 @@
 {
   "name": "ea-mt5-studio",
   "version": "1.0.0",
-  "description": "Landing page for EA MT5 Bot Development Service",
+  "description": "Landing page for NongDanLamBOT - EA Forex MT5 Development Service",
   "private": true,
   "scripts": {
     "dev": "next dev",

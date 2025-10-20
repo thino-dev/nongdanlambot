@@ -1,4 +1,4 @@
-# 🚀 NÂNG CẤP ĐẲNG CẤP - EA MT5 STUDIO WEBSITE
+# 🚀 NÂNG CẤP ĐẲNG CẤP - NONGDANLAMBOT WEBSITE
 
 ## ✨ Tổng quan cải tiến
 

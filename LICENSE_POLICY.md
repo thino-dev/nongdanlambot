@@ -47,7 +47,7 @@
 
 Nếu bạn cần chạy EA trên thêm tài khoản MT5:
 
-1. **Liên hệ qua Telegram**: @ea_mt5_studio
+1. **Liên hệ qua Telegram**: @z2idon
 2. **Cung cấp**:
    - Order ID gốc
    - Số tài khoản MT5 mới cần bind
@@ -103,8 +103,8 @@ Nếu bạn cần chạy EA trên thêm tài khoản MT5:
 
 ## 📞 Liên Hệ
 
-**Telegram**: @ea_mt5_studio  
-**Email**: contact@eamt5studio.com  
+**Telegram**: @z2idon  
+**Email**: contact@nongdanlambot.com  
 **Hotline**: 0901.234.567
 
 ---

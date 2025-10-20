@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://eamt5studio.com/sitemap.xml',
+    sitemap: 'https://nongdanlambot.com/sitemap.xml',
   }
 }

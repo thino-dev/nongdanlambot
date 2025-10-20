@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Điều khoản dịch vụ - EA MT5 Studio',
-  description: 'Điều khoản và điều kiện sử dụng dịch vụ của EA MT5 Studio',
+  title: 'Điều khoản dịch vụ - NongDanLamBOT',
+  description: 'Điều khoản và điều kiện sử dụng dịch vụ của NongDanLamBOT',
 }
 
 export default function TermsPage() {
@@ -21,7 +21,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-heading font-semibold text-text mb-4">1. Phạm vi dịch vụ</h2>
               <p>
-                EA MT5 Studio cung cấp dịch vụ thiết kế, lập trình Expert Advisor (EA) cho MetaTrader 5 
+                NongDanLamBOT cung cấp dịch vụ thiết kế, lập trình Expert Advisor (EA) cho MetaTrader 5 
                 theo yêu cầu khách hàng. Dịch vụ bao gồm: tư vấn chiến lược, lập trình, backtest, 
                 bàn giao file .ex5 gắn tài khoản và hỗ trợ kỹ thuật.
               </p>

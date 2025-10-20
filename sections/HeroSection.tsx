@@ -4,8 +4,11 @@ import { motion } from 'framer-motion'
 import { ArrowRight, TrendingUp, Sparkles, Shield, Zap } from 'lucide-react'
 import Button from '@/components/Button'
 import Section from '@/components/Section'
+import { useContactPopup } from '@/contexts/ContactPopupContext'
 
 export default function HeroSection() {
+  const { openPopup } = useContactPopup()
+  
   return (
     <Section id="hero" className="pt-32 pb-20 lg:pt-40 lg:pb-32 relative overflow-hidden">
       {/* Animated gradient background */}
@@ -81,9 +84,7 @@ export default function HeroSection() {
               <Button
                 variant="primary"
                 size="lg"
-                onClick={() => {
-                  document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })
-                }}
+                onClick={openPopup}
               >
                 Nhận báo giá trong 24h
                 <ArrowRight className="ml-2" size={20} />

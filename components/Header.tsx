@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Menu, X } from 'lucide-react'
 import Button from './Button'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useContactPopup } from '@/contexts/ContactPopupContext'
 
 const menuItems = [
   { label: 'Trang chủ', href: '#hero' },
@@ -17,6 +18,7 @@ const menuItems = [
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const { openPopup } = useContactPopup()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +53,7 @@ export default function Header() {
             }}
             className="text-2xl font-heading font-bold text-accent hover:text-accent-400 transition-colors"
           >
-            EA MT5 Studio
+            NongDanLamBOT
           </a>
 
           {/* Desktop Menu */}
@@ -74,7 +76,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden lg:block">
             <Button
-              onClick={() => scrollToSection('#contact')}
+              onClick={openPopup}
               variant="primary"
               size="sm"
             >
@@ -118,7 +120,7 @@ export default function Header() {
                 </a>
               ))}
               <Button
-                onClick={() => scrollToSection('#contact')}
+                onClick={openPopup}
                 variant="primary"
                 size="md"
                 className="w-full"

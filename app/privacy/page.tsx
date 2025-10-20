@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Chính sách bảo mật - EA MT5 Studio',
-  description: 'Chính sách bảo mật thông tin khách hàng của EA MT5 Studio',
+  title: 'Chính sách bảo mật - NongDanLamBOT',
+  description: 'Chính sách bảo mật thông tin khách hàng của NongDanLamBOT',
 }
 
 export default function PrivacyPage() {
@@ -63,8 +63,8 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-2xl font-heading font-semibold text-text mb-4">6. Liên hệ</h2>
               <p>
-                Nếu có thắc mắc về chính sách bảo mật, liên hệ: contact@eamt5studio.com hoặc 
-                Telegram @eamt5studio.
+                Nếu có thắc mắc về chính sách bảo mật, liên hệ: contact@nongdanlambot.com hoặc 
+                Telegram @nongdanlambot.
               </p>
             </section>
 

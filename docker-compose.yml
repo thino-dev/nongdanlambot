@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # Next.js Application
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nongdanlambot-nextjs
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    networks:
+      - app-network
+    # Don't expose ports directly, let Caddy handle it
+    expose:
+      - "3000"
+
+  # Caddy Web Server with Auto SSL
+  caddy:
+    image: caddy:2-alpine
+    container_name: nongdanlambot-caddy
+    restart: unless-stopped
+    ports:
+      - "80:80"     # HTTP
+      - "443:443"   # HTTPS
+      - "443:443/udp" # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - app-network
+    depends_on:
+      - nextjs
+    environment:
+      - DOMAIN=${DOMAIN:-localhost}
+      - EMAIL=${EMAIL:-admin@example.com}
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  caddy_data:
+    driver: local
+  caddy_config:
+    driver: local
